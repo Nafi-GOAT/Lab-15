@@ -6,3 +6,9 @@
 //
 // COMSC-210 | Lab 15 | Mehraj Hasan Nafi
 // IDE used: Visual Studio Code
+
+#include <iostream>
+#include <string>
+#include <array>
+#include <fstream>
+using namespace std;
