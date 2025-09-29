@@ -28,3 +28,10 @@ class Movie{
 
         void setTitle(string movieTitle) {title = movieTitle;}
         string getTitle() {return title;}
+     
+void print(){
+            cout << title << endl;
+            cout << yearReleased << endl;
+            cout << screenWriter << endl <<endl;
+        }
+};
