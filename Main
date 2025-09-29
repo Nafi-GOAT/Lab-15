@@ -22,3 +22,9 @@ class Movie{
         //each data member in private these are setters and getters pair
         void setWriter(string writer) {screenWriter = writer;}
         string getWriter() {return screenWriter;}
+
+        void setYear(int year) {yearReleased = year;}
+        int getYear() {return yearReleased;}
+
+        void setTitle(string movieTitle) {title = movieTitle;}
+        string getTitle() {return title;}
