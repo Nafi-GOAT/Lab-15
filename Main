@@ -35,3 +35,16 @@ void print(){
             cout << screenWriter << endl <<endl;
         }
 };
+
+int main(){
+     //this is opening the file
+    ifstream inFile("input.txt");
+    if (!inFile) {
+        cerr << "Error: could not open input.txt" << endl;
+        return 1;
+    }
+     //this is an array for the object,movie[number of variables]
+    Movie movie[4];
+     string writer;
+     string title;
+     int year;
