@@ -12,3 +12,13 @@
 #include <array>
 #include <fstream>
 using namespace std;
+
+class Movie{
+    private: 
+        string screenWriter;
+        int yearReleased;
+        string title;
+    public:
+        //each data member in private these are setters and getters pair
+        void setWriter(string writer) {screenWriter = writer;}
+        string getWriter() {return screenWriter;}
