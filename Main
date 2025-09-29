@@ -48,3 +48,14 @@ int main(){
      string writer;
      string title;
      int year;
+   
+for ( int i=0; i<4 ; i++){
+         getline (inFile, title);
+         inFile >> year;
+         inFile.ignore(); //to ignore the new line
+         getline (inFile, writer);
+         
+         Movie temp;                // temporary object Movie
+         temp.setTitle(title);
+         temp.setYear(year);
+         temp.setWriter(writer);
